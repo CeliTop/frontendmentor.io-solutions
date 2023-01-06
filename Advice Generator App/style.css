@@ -1,8 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
+:root {
+  --Neon-Green: hsl(150, 100%, 66%);
+}
+
 .attribution {
   font-size: 0.75rem;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(193, 38%, 86%);
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem;
+  padding: 3.375rem;
+  border-radius: 20px;
+}
+
+.advice-number {
+  color: var(--Neon-Green);
+  font-size: 0.75rem;
+  letter-spacing: 0.375em;
+}
+
+.advice-quote {
+  font-size: 28px;
+  margin: 1.5rem 0 2.625rem 0;
+  text-align: center;
+}
+
+.divider {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.random-btn {
+  background-color: var(--Neon-Green);
+  border: 0;
+  padding: 0.5rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -11%;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.random-btn:hover {
+  box-shadow: 0 0 40px 0 var(--Neon-Green);
+}
+
+.dice-icon {
+  width: 25px;
 }
