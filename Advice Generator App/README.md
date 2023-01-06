@@ -20,8 +20,8 @@ This is a solution to the [Advice Generator App challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Vercel]()
+- Solution URL: [Github](https://github.com/CeliTop/frontendmentor.io-solutions/tree/main/Advice%20Generator%20App)
+- Live Site URL: [Vercel](https://frontendmentor-io-advice-generator-app-celitop.vercel.app/)
 
 ## My process
 
